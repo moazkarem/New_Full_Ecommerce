@@ -6,7 +6,8 @@ export default {
   
     extend: {  colors: {
       primary: "#FF7F33",
-      header:"#F3F3F3"
+      header:"#F3F3F3",
+      describtion:"#2C2828"
     },},
   },
   plugins: [daisyui],
