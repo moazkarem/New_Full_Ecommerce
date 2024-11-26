@@ -1,32 +1,51 @@
 import React from "react";
+import Button from "../../../Ui/Button";
 import heroImage from "./assets/heroleft.png";
-import midImage from './assets/mid-img.png';
-
+import midImage from "./assets/mid-img.png";
+import arrowIcon from './assets/arrowIcon.svg'
 const Hero = () => {
   return (
-    <div className="flex gap-7 justify-center mt-5">
-      <div className="left-side">
-        <img src={heroImage} alt="left-image-hero" />
-      </div>
-      <div className="mid-side relative w-full max-w-[1411px]"> 
-        <div className="absolute z-20 top-1/2  transform -translate-y-1/2 max-w-[500px] ms-5 font-bold capitalize ">
-          <h1 className="text-black text-[32px] mb-5">
-            You can choose what suits your taste from our handmade work to enhance the elegance of your home.
-          </h1>
-          <p className="text-describtion text-[14px] capitalize mb-5">
-          You can choose what suits your taste from our handmade work to enhance the elegance of your home.
-          You can choose what suits your taste from our handmade work to enhance the elegance of your home.
-          </p>
-          <button>read more</button>
+    <div className="">
+      <div className="flex gap-7 justify-center mt-10">
+        <div className="left-side relative max-w-[178px]">
+         <div>
+         <img
+            src={heroImage}
+            alt="left-image-hero"
+            className=""
+          />
+         </div>
+         <img src={arrowIcon} alt='icon arrow' className="absolute object-cover bottom-8 left-11"/>
         </div>
-        <img 
-          src={midImage} 
-          alt="main-image-hero" 
-          className="absolute top-0 left-0 right-0 bottom-0 object-cover -z-1" 
-        />
-      </div>
-      <div className="right-side">
-        <img src={heroImage} alt="right-image-hero" />
+        <div className="mid-side relative w-full max-w-[1411px]">
+          <div className="absolute z-20 top-1/2  transform -translate-y-1/2 max-w-[400px] ms-16 font-bold capitalize text-right">
+            <h1 className="text-[#130F0F] text-[36px] mb-6 font-bold">
+              بإمكانك اختيار ما يناسب ذوقك من شغلنا اليدوي ليزيد من أناقة بيتك
+            </h1>
+            <p className="text-describtion text-[18px] font-light capitalize mb-6 ">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى، حيث يمكنك أن تولد .
+            </p>
+            <Button styles="bg-btnbg rounded-full text-[16px] w-52 h-[59px]  text-white ">
+              تعرف على المزيد
+            </Button>
+          </div>
+          <img
+            src={midImage}
+            alt="main-image-hero"
+            className="absolute top-0 left-0 right-0 bottom-0 object-cover -z-1"
+          />
+        </div>
+        <div className="right-side relative max-w-[178px]">
+         <div>
+         <img
+            src={heroImage}
+            alt="right-image-hero"
+            className=""
+          />
+         </div>
+         <img src={arrowIcon} alt='icon arrow' className="absolute object-cover bottom-8 left-11"/>
+        </div>
       </div>
     </div>
   );

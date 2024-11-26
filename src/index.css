@@ -4,6 +4,7 @@
 @tailwind utilities;
 html{
   font-family: "Tajawal", sans-serif;
+  
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
