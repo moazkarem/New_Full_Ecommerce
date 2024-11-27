@@ -6,14 +6,23 @@ html{
   font-family: "Tajawal", sans-serif;
   
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+::selection{
+  background-color: #FF7F33;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(1, 1, 1, 0.87);
-  background-color: #fff;
+  color:white;
+  background-color: #17191A;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

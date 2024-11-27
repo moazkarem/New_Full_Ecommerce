@@ -1,32 +1,34 @@
 import React from "react";
-import Button from "../../../Ui/Button";
+import Button from "../../../Shared/Button";
 import heroImage from "./assets/heroleft.png";
+import heroRight from "./assets/heroright.png";
 import midImage from "./assets/mid-img.png";
 import arrowIcon from './assets/arrowIcon.svg'
 const Hero = () => {
   return (
-    <div className="">
-      <div className="flex gap-7 justify-center mt-10">
-        <div className="left-side relative max-w-[178px]">
+    <div className=" mx-auto container">
+      <div className=" flex gap-7 justify-center pt-10 pb-28 ">
+        <div className="left-side relative  max-w-[178px]  hidden md:block">
          <div>
          <img
             src={heroImage}
             alt="left-image-hero"
-            className=""
+            className="object-cover h-]"
           />
          </div>
-         <img src={arrowIcon} alt='icon arrow' className="absolute object-cover bottom-8 left-11"/>
+         <img src={arrowIcon} alt='icon arrow' className="absolute object-cover bottom-8 left-1/2 transform -translate-x-1/2"/>
         </div>
-        <div className="mid-side relative w-full max-w-[1411px]">
+        
+        <div className="mid-side relative w-[1411px]  ">
           <div className="absolute z-20 top-1/2  transform -translate-y-1/2 max-w-[400px] ms-16 font-bold capitalize text-right">
-            <h1 className="text-[#130F0F] text-[36px] mb-6 font-bold">
+            <h1 className="text-[#130F0F] text-[clamp(18px,_2vw,_36px)] mb-6 font-bold">
               بإمكانك اختيار ما يناسب ذوقك من شغلنا اليدوي ليزيد من أناقة بيتك
             </h1>
-            <p className="text-describtion text-[18px] font-light capitalize mb-6 ">
+            <p className="text-describtion text-[clamp(14px,_2vw,_18px)] font-light capitalize mb-6 ">
               هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
               هذا النص من مولد النص العربى، حيث يمكنك أن تولد .
             </p>
-            <Button styles="bg-btnbg rounded-full text-[16px] w-52 h-[59px]  text-white ">
+            <Button styles="bg-btnbg rounded-full text-[clamp(14px,_2vw,_16px)] w-52 h-[59px]  text-white ">
               تعرف على المزيد
             </Button>
           </div>
@@ -36,15 +38,15 @@ const Hero = () => {
             className="absolute top-0 left-0 right-0 bottom-0 object-cover -z-1"
           />
         </div>
-        <div className="right-side relative max-w-[178px]">
+        <div className="right-side relative max-w-[178px]   hidden md:block">
          <div>
          <img
-            src={heroImage}
+            src={heroRight}
             alt="right-image-hero"
-            className=""
+            className="object-cover "
           />
          </div>
-         <img src={arrowIcon} alt='icon arrow' className="absolute object-cover bottom-8 left-11"/>
+         <img src={arrowIcon} alt='icon arrow' className="absolute object-cover bottom-8 left-1/2 transform -translate-x-1/2 "/>
         </div>
       </div>
     </div>

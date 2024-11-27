@@ -46,14 +46,14 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-primary shadow-sm relative">
+    <header  className="bg-primary shadow-sm relative  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Mobile menu button */}
           <div className="flex items-center lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-gray-900"
+              className="text-white "
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
