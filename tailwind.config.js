@@ -8,7 +8,8 @@ export default {
       primary: "#FF7F33",
       header:"#F3F3F3",
       describtion:"#2C2828",
-      btnbg:"#F28A1A"
+      btnbg:"#F28A1A",
+      cardbg:"#0F1111"
     },},
   },
   plugins: [daisyui],

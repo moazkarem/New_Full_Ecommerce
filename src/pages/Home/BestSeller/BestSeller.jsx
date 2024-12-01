@@ -1,0 +1,84 @@
+import React from "react";
+import Divider from "./../../../Shared/Divider";
+import img1 from "./assets/img1.png";
+const BestSeller = () => {
+  return (
+    <div className="container mx-auto">
+      <div className="mb-5">
+        <Divider title={"الاكثر مبيعا"} />
+      </div>
+      <div class="parent grid grid-cols-12 grid-rows-5 gap-x-5 gap-y-0">
+        <div class="div1 col-start-1 col-end-4 row-start-1 row-end-5 bg-cardbg">
+          <div className="w-full">
+            <img src={img1} alt="product img" className="w-full" />
+          </div>
+          <div className="text-card text-right flex flex-col gap-2">
+            <span className="text-primary text-[clamp(16px,_2vw,_18px)] font-bold">
+              200.00 ر.س{" "}
+            </span>
+            <h3 className="text-[clamp(16px,_2vw,_20px)] font-bold text-black">
+              أطباق فخارية يدوية الصنع
+            </h3>
+            <p className="text-describtion text-[clamp(14px,_2vw,_18px)] font-light">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى.
+            </p>
+          </div>
+        </div>
+        <div class="div2 col-start-4 col-end-7 row-start-1 row-end-5 bg-cardbg">
+          <div className="w-full">
+            <img src={img1} alt="product img" className="w-full" />
+          </div>
+          <div className="text-card text-right flex flex-col gap-2">
+            <span className="text-primary text-[clamp(16px,_2vw,_18px)] font-bold">
+              200.00 ر.س{" "}
+            </span>
+            <h3 className="text-[clamp(16px,_2vw,_20px)] font-bold text-black">
+              أطباق فخارية يدوية الصنع
+            </h3>
+            <p className="text-describtion text-[clamp(14px,_2vw,_18px)] font-light">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى.
+            </p>
+          </div>
+        </div>
+        <div class="div3 col-start-7 col-end-10 row-start-1 row-end-5 bg-cardbg">
+          <div className="w-full">
+            <img src={img1} alt="product img" className="w-full" />
+          </div>
+          <div className="text-card text-right flex flex-col gap-2">
+            <span className="text-primary text-[clamp(16px,_2vw,_18px)] font-bold">
+              200.00 ر.س{" "}
+            </span>
+            <h3 className="text-[clamp(16px,_2vw,_20px)] font-bold text-black">
+              أطباق فخارية يدوية الصنع
+            </h3>
+            <p className="text-describtion text-[clamp(14px,_2vw,_18px)] font-light">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى.
+            </p>
+          </div>
+        </div>
+        <div class="div4 col-start-10 col-end-13 row-start-1 row-end-5 bg-cardbg">
+          <div className="w-full">
+            <img src={img1} alt="product img" className="w-full" />
+          </div>
+          <div className="text-card text-right flex flex-col gap-2">
+            <span className="text-primary text-[clamp(16px,_2vw,_18px)] font-bold">
+              200.00 ر.س{" "}
+            </span>
+            <h3 className="text-[clamp(16px,_2vw,_20px)] font-bold text-black">
+              أطباق فخارية يدوية الصنع
+            </h3>
+            <p className="text-describtion text-[clamp(14px,_2vw,_18px)] font-light">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BestSeller;
