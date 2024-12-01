@@ -36,7 +36,7 @@ const Hero = () => {
           <img
             src={midImage}
             alt="main-image-hero"
-            className="absolute top-0 left-0 right-0 bottom-0 object-cover -z-1"
+            className="absolute top-0 left-0 right-0 bottom-0 object-cover -z-1 "
           />
         </div>
         <div className="right-side relative max-w-[178px]   hidden md:block">
