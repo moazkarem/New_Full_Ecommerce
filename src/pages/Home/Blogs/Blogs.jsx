@@ -5,11 +5,11 @@ import img2 from "./assets/img2.png";
 import img3 from "./assets/img3.png";
 import img4 from "./assets/img4.png";
 import cartIcon from "./assets/cartIcon.svg";
-const BestSeller = () => {
+const Blogs = () => {
   return (
     <div className="container mx-auto">
       <div className="mb-5">
-        <Divider title={"الاكثر مبيعا"} />
+        <Divider title={"المدونات"} />
       </div>
       <div class="w-[80%] mx-auto parent grid grid-cols-12 grid-rows-5 gap-x-5 gap-y-0">
         <div class="div1 rounded-md col-start-1 col-end-4 row-start-1 row-end-5 bg-cardbg ">
@@ -31,10 +31,9 @@ const BestSeller = () => {
               هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
               هذا النص من مولد النص العربى.
             </p>
-            <div className="icons flex justify-center items-center gap-2 mb-6">
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
+            <div className="text-right mb-6">
+             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+             قراءة المزيد</h4> 
             </div>
           </div>
         </div>
@@ -57,10 +56,9 @@ const BestSeller = () => {
               هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
               هذا النص من مولد النص العربى.
             </p>
-            <div className="icons flex justify-center items-center gap-2 mb-6">
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
+            <div className="text-right mb-6">
+             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+             قراءة المزيد</h4> 
             </div>
           </div>
         </div>
@@ -83,10 +81,9 @@ const BestSeller = () => {
               هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
               هذا النص من مولد النص العربى.
             </p>
-            <div className="icons flex justify-center items-center gap-2 mb-6">
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
+            <div className="text-right mb-6">
+             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+             قراءة المزيد</h4> 
             </div>
           </div>
         </div>
@@ -109,10 +106,9 @@ const BestSeller = () => {
               هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
               هذا النص من مولد النص العربى.
             </p>
-            <div className="icons flex justify-center items-center gap-2 mb-6">
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
-              <img src={cartIcon} alt="cart icon" />
+            <div className="text-right mb-6">
+             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+             قراءة المزيد</h4> 
             </div>
           </div>
         </div>
@@ -121,4 +117,4 @@ const BestSeller = () => {
   );
 };
 
-export default BestSeller;
+export default Blogs;
