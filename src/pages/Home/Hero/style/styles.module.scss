@@ -1,0 +1,15 @@
+.hero-sec{
+  @media (min-width: 635px) and (max-width: 768px) {
+    padding-bottom: 15rem;
+}
+    :global{
+        .mid-side{
+          .hero-text{
+            
+            @media (min-width: 635px) and (max-width: 768px) {
+                margin-top: 7rem;
+            }
+          }
+        }
+    }
+}
