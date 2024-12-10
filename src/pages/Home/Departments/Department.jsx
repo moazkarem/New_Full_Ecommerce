@@ -11,8 +11,8 @@ const Department = () => {
       <div className="mb-5">
         <Divider title={"الأقسام / التصنيفات"} />
       </div>
-      <div class="w-[80%] mx-auto parent grid grid-cols-12 grid-rows-5 gap-x-5 gap-y-0">
-        <div class="div1 rounded-md col-start-1 col-end-4 row-start-1 row-end-5 bg-cardbg ">
+      <div className="w-[80%] mx-auto parent grid grid-cols-4 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">
+        <div className="div1 rounded-md col-span-1 row-span-1 bg-cardbg ">
           <div className="w-full h-[300px]">
             <img
               src={img1}
@@ -38,7 +38,7 @@ const Department = () => {
             </div>
           </div>
         </div>
-        <div class="div2 col-start-4 col-end-7 row-start-1 row-end-5 bg-cardbg">
+        <div className="div2 col-span-1 row-span-1 bg-cardbg">
           <div className="w-full h-[300px]">
             <img
               src={img2}
@@ -64,7 +64,7 @@ const Department = () => {
             </div>
           </div>
         </div>
-        <div class="div3 col-start-7 col-end-10 row-start-1 row-end-5 bg-cardbg">
+        <div className="div3 col-span-1 row-span-1 bg-cardbg">
           <div className="w-full h-[300px]">
             <img
               src={img3}
@@ -90,7 +90,7 @@ const Department = () => {
             </div>
           </div>
         </div>
-        <div class="div4 col-start-10 col-end-13 row-start-1 row-end-5 bg-cardbg">
+        <div className="div4 col-span-1 row-span-1 bg-cardbg">
           <div className="w-full h-[300px]">
             <img
               src={img4}

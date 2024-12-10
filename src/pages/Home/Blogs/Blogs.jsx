@@ -1,18 +1,16 @@
-import React from "react";
 import Divider from "./../../../Shared/Divider";
 import img1 from "./assets/img1.png";
 import img2 from "./assets/img2.png";
 import img3 from "./assets/img3.png";
 import img4 from "./assets/img4.png";
-import cartIcon from "./assets/cartIcon.svg";
 const Blogs = () => {
   return (
     <div className="container mx-auto">
       <div className="mb-5">
         <Divider title={"المدونات"} />
       </div>
-      <div class="w-[80%] mx-auto parent grid grid-cols-12 grid-rows-5 gap-x-5 gap-y-0">
-        <div class="div1 rounded-md col-start-1 col-end-4 row-start-1 row-end-5 bg-cardbg ">
+      <div className="w-[80%] mx-auto parent grid grid-cols-4 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">
+        <div className="div1 rounded-md  col-span-1 row-span-1 bg-cardbg">
           <div className="w-full h-[300px]">
             <img
               src={img1}
@@ -32,13 +30,14 @@ const Blogs = () => {
               هذا النص من مولد النص العربى.
             </p>
             <div className="text-right mb-6">
-             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
-             قراءة المزيد</h4> 
+              <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+                قراءة المزيد
+              </h4>
             </div>
           </div>
         </div>
-        <div class="div2 col-start-4 col-end-7 row-start-1 row-end-5 bg-cardbg">
-        <div className="w-full h-[300px]">
+        <div className="div2 col-span-1 row-span-1 bg-cardbg">
+          <div className="w-full h-[300px]">
             <img
               src={img2}
               alt="product img"
@@ -57,13 +56,14 @@ const Blogs = () => {
               هذا النص من مولد النص العربى.
             </p>
             <div className="text-right mb-6">
-             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
-             قراءة المزيد</h4> 
+              <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+                قراءة المزيد
+              </h4>
             </div>
           </div>
         </div>
-        <div class="div3 col-start-7 col-end-10 row-start-1 row-end-5 bg-cardbg">
-        <div className="w-full h-[300px]">
+        <div className="div3 col-span-1 row-span-1 bg-cardbg">
+          <div className="w-full h-[300px]">
             <img
               src={img3}
               alt="product img"
@@ -82,13 +82,14 @@ const Blogs = () => {
               هذا النص من مولد النص العربى.
             </p>
             <div className="text-right mb-6">
-             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
-             قراءة المزيد</h4> 
+              <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+                قراءة المزيد
+              </h4>
             </div>
           </div>
         </div>
-        <div class="div4 col-start-10 col-end-13 row-start-1 row-end-5 bg-cardbg">
-        <div className="w-full h-[300px]">
+        <div className="div4 col-span-1 row-span-1 bg-cardbg">
+          <div className="w-full h-[300px]">
             <img
               src={img4}
               alt="product img"
@@ -107,8 +108,9 @@ const Blogs = () => {
               هذا النص من مولد النص العربى.
             </p>
             <div className="text-right mb-6">
-             <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
-             قراءة المزيد</h4> 
+              <h4 className="text-darkprim text-[clamp(16px,_2vw,_18px)] font-semibold">
+                قراءة المزيد
+              </h4>
             </div>
           </div>
         </div>

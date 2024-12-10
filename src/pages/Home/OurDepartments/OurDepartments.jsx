@@ -11,20 +11,20 @@ const OurDepartments = () => {
       <div className="mb-5">
         <Divider title={"Our Departments"} />
       </div>
-      <div class="w-[80%] mx-auto parent grid grid-cols-12 grid-rows-5 gap-x-2 gap-y-2.5">
-        <div class="div1 col-start-1 col-end-7 row-start-1 row-end-5">
+      <div className="w-[80%] mx-auto parent grid grid-cols-12 grid-rows-5 gap-x-2 gap-y-2.5">
+        <div className="div1 col-start-1 col-end-7 row-start-1 row-end-5">
           <img src={img1} alt="img1" className="w-full" />
         </div>
-        <div class="div2 col-start-7 col-end-10 row-start-1 row-end-3">
+        <div className="div2 col-start-7 col-end-10 row-start-1 row-end-3">
           <img src={img2} alt="img2" className="w-full" />
         </div>
-        <div class="div3 col-start-7 col-end-10 row-start-3 row-end-5">
+        <div className="div3 col-start-7 col-end-10 row-start-3 row-end-5">
           <img src={img3} alt="img3" className="w-full" />
         </div>
-        <div class="div4 col-start-10 col-end-13 row-start-1 row-end-3">
+        <div className="div4 col-start-10 col-end-13 row-start-1 row-end-3">
           <img src={img4} alt="img4" className="w-full" />
         </div>
-        <div class="div5 col-start-10 col-end-13 row-start-3 row-end-5">
+        <div className="div5 col-start-10 col-end-13 row-start-3 row-end-5">
           <img src={img5} alt="img5" className="w-full" />
         </div>
       </div>

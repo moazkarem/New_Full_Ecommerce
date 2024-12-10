@@ -11,7 +11,8 @@ export default {
       describtion:"#2C2828",
       descdark:'#E3E3E3',
       btnbg:"#F28A1A",
-      cardbg:"#0F1111"
+      cardbg:"#0F1111",
+      bgfooter:"#FFF6ED"
     },},
   },
   plugins: [daisyui],

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import {  Menu, X, Search, LogOut, Moon, Sun, ChevronDown , ShoppingBasket } from 'lucide-react';
-import Logo from '../../assets/header/logo.png'
+import Logo from '../../../assets/header/logo.png'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);

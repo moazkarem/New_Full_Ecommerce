@@ -1,4 +1,4 @@
-import React from "react";
+
 import Button from "../../../Shared/Button";
 import heroImage from "./assets/heroleft.png";
 import heroRight from "./assets/heroright.png";
